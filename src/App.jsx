@@ -62,8 +62,7 @@ function App() {
               position: "fixed",
               top: 1,
               right: 1,
-              // transform: "translateX(100%)",
-              // transform: "translateY(-50%)",
+
               zIndex: 999999,
             }}
           >
