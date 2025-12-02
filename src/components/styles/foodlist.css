@@ -1,0 +1,138 @@
+.filters {
+  padding: 20px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.filters .content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.filters .content button {
+  color: #fff;
+  background-color: var(--color-red);
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.filters .content button:hover {
+  background-color: var(--color-accent);
+}
+.filters .content button.active {
+  background-color: var(--color-accent);
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.items-box {
+  background-color: var(--color-gray-dark);
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: inset 0 0 25px #433f3f;
+  transition: all 0.3s ease;
+}
+
+.items-box:hover {
+  transform: scale(1.07);
+}
+
+.items-box img {
+  width: 100%;
+  border-radius: 12px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.items-box p {
+  color: var(--color-gray-text);
+  margin-top: 7px;
+}
+
+.items-box .link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+  color: var(--color-red);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.items-box .link:active {
+  transform: scale(0.8);
+}
+
+.items-box .link p {
+  color: var(--color-red);
+  margin: 0;
+}
+
+.no-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .filters .content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+
+  .filters .content button {
+    width: 90px;
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .items {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .items-box img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .no-item,
+  .error {
+    position: relative;
+    transform: none;
+    margin: 50px auto;
+    text-align: center;
+  }
+}

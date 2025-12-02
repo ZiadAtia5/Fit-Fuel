@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Stay Consistent",
+    "content": "Consistency is key. Set a schedule and stick to your workouts daily.",
+    "icon": "faCalendarCheck"
+  },
+  {
+    "title": "Proper Form Matters",
+    "content": "Always focus on correct form to prevent injuries and get better results.",
+    "icon": "faDumbbell"
+  },
+  {
+    "title": "Hydrate Regularly",
+    "content": "Drink enough water before, during, and after workouts to stay energized.",
+    "icon": "faWater"
+  },
+  {
+    "title": "Track Your Progress",
+    "content": "Use apps or journals to track weight, reps, and measurements.",
+    "icon": "faChartLine"
+  },
+  {
+    "title": "Mix Cardio & Strength",
+    "content": "Balance workouts to maximize fat loss and muscle gain.",
+    "icon": "faHeartPulse"
+  },
+  {
+    "title": "Warm Up Properly",
+    "content": "Start every session with a proper warm-up to prevent injuries.",
+    "icon": "faRunning"
+  },
+  {
+    "title": "Cool Down",
+    "content": "End your workouts with stretching to improve flexibility.",
+    "icon": "faPersonWalking"
+  },
+  {
+    "title": "Eat Protein",
+    "content": "Protein supports muscle recovery and growth.",
+    "icon": "faLeaf"
+  },
+  {
+    "title": "Prioritize Sleep",
+    "content": "Aim for 7–8 hours of sleep for optimal recovery.",
+    "icon": "faBed"
+  },
+  {
+    "title": "Avoid Overtraining",
+    "content": "Give your muscles time to recover to avoid injuries.",
+    "icon": "faExclamationTriangle"
+  },
+  {
+    "title": "Plan Meals",
+    "content": "Prepare balanced meals to fuel your workouts and recovery.",
+    "icon": "faUtensils"
+  },
+  {
+    "title": "Listen to Your Body",
+    "content": "Rest or adjust intensity if you feel pain or fatigue.",
+    "icon": "faEarListen"
+  },
+  {
+    "title": "Stay Motivated",
+    "content": "Set short-term goals and reward yourself for achievements.",
+    "icon": "faStar"
+  },
+  {
+    "title": "Workout with Friends",
+    "content": "Exercising with friends increases motivation and accountability.",
+    "icon": "faUsers"
+  },
+  {
+    "title": "Include Rest Days",
+    "content": "Rest days are crucial for recovery and progress.",
+    "icon": "faPersonRest"
+  },
+  {
+    "title": "Focus on Compound Exercises",
+    "content": "Exercises like squats and deadlifts work multiple muscle groups.",
+    "icon": "faPersonRunning"
+  },
+  {
+    "title": "Stay Flexible",
+    "content": "Incorporate stretching or yoga for better mobility.",
+    "icon": "faPersonBending"
+  },
+  {
+    "title": "Monitor Heart Rate",
+    "content": "Track intensity for safe and effective workouts.",
+    "icon": "faHeart"
+  },
+  {
+    "title": "Avoid Sugary Drinks",
+    "content": "Drink water or healthy beverages instead of soda.",
+    "icon": "faMugHot"
+  },
+  {
+    "title": "Celebrate Progress",
+    "content": "Acknowledge milestones to stay motivated and positive.",
+    "icon": "faTrophy"
+  }
+]

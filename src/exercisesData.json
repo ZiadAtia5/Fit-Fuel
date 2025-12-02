@@ -1,0 +1,814 @@
+{
+  "Exercises": {
+    "Abs": [
+      {
+        "id": 1,
+        "name": "Crunches",
+        "category": "Abs",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "15-20",
+        "restTime": "30s",
+        "musclesTargeted": ["Upper Abs", "Core"],
+        "equipment": ["Mat"],
+        "instructions": [
+          "Lie on your back with knees bent and feet flat on the floor",
+          "Place hands behind your head or cross them on your chest",
+          "Lift your upper body towards your knees",
+          "Slowly lower back down"
+        ],
+        "benefits": "Strengthens upper abdominal muscles",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Leg Raises",
+        "category": "Abs",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "12-15",
+        "restTime": "45s",
+        "musclesTargeted": ["Lower Abs", "Core"],
+        "equipment": ["Mat"],
+        "instructions": [
+          "Lie flat on your back with legs straight",
+          "Place hands under your glutes for support",
+          "Lift legs straight up until perpendicular to floor",
+          "Slowly lower legs back down without touching floor"
+        ],
+        "benefits": "Targets lower abdominal muscles effectively",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Plank",
+        "category": "Abs",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "30-60 seconds",
+        "restTime": "30s",
+        "musclesTargeted": ["Core", "Full Abs", "Shoulders"],
+        "equipment": ["Mat"],
+        "instructions": [
+          "Start in push-up position with elbows under shoulders",
+          "Keep body in straight line from head to heels",
+          "Engage core and hold position",
+          "Don't let hips sag or rise"
+        ],
+        "benefits": "Builds core strength and stability",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "Russian Twists",
+        "category": "Abs",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "15-20 each side",
+        "restTime": "45s",
+        "musclesTargeted": ["Obliques", "Core"],
+        "equipment": ["Mat", "Weight (optional)"],
+        "instructions": [
+          "Sit on floor with knees bent and feet elevated",
+          "Lean back slightly keeping back straight",
+          "Twist torso from side to side",
+          "Keep core engaged throughout movement"
+        ],
+        "benefits": "Develops oblique muscles and rotational strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Mountain Climbers",
+        "category": "Abs",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "20-30 each leg",
+        "restTime": "45s",
+        "musclesTargeted": ["Core", "Full Abs", "Cardio"],
+        "equipment": ["Mat"],
+        "instructions": [
+          "Start in plank position",
+          "Bring one knee towards chest",
+          "Quickly switch legs in running motion",
+          "Maintain steady pace and tight core"
+        ],
+        "benefits": "Combines core strength with cardio",
+        "image": "",
+        "videoLink": ""
+      }
+    ],
+    "Chest": [
+      {
+        "id": 1,
+        "name": "Bench Press",
+        "category": "Chest",
+        "difficulty": "Intermediate",
+        "sets": 4,
+        "reps": "8-12",
+        "restTime": "60-90s",
+        "musclesTargeted": ["Pectoralis Major", "Triceps", "Front Delts"],
+        "equipment": ["Barbell", "Bench"],
+        "instructions": [
+          "Lie flat on bench with feet on floor",
+          "Grip barbell slightly wider than shoulder-width",
+          "Lower bar to mid-chest with control",
+          "Press bar back to starting position"
+        ],
+        "benefits": "Builds overall chest mass and strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Incline Dumbbell Press",
+        "category": "Chest",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "10-12",
+        "restTime": "60s",
+        "musclesTargeted": ["Upper Chest", "Front Delts"],
+        "equipment": ["Dumbbells", "Incline Bench"],
+        "instructions": [
+          "Set bench to 30-45 degree incline",
+          "Hold dumbbells at chest level with palms forward",
+          "Press dumbbells upward until arms are extended",
+          "Lower with control back to start"
+        ],
+        "benefits": "Targets upper chest development",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Push-Ups",
+        "category": "Chest",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "15-20",
+        "restTime": "45s",
+        "musclesTargeted": ["Chest", "Triceps", "Shoulders"],
+        "equipment": ["Mat"],
+        "instructions": [
+          "Start in plank position with hands shoulder-width apart",
+          "Lower body until chest nearly touches floor",
+          "Keep elbows close to body",
+          "Push back to starting position"
+        ],
+        "benefits": "Bodyweight chest builder, no equipment needed",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "Cable Crossovers",
+        "category": "Chest",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "12-15",
+        "restTime": "45s",
+        "musclesTargeted": ["Inner Chest", "Pectorals"],
+        "equipment": ["Cable Machine"],
+        "instructions": [
+          "Set cables to high position",
+          "Stand in middle with one handle in each hand",
+          "Bring hands together in front of chest",
+          "Return with control to starting position"
+        ],
+        "benefits": "Isolates chest and creates chest definition",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Dips",
+        "category": "Chest",
+        "difficulty": "Advanced",
+        "sets": 3,
+        "reps": "8-12",
+        "restTime": "60s",
+        "musclesTargeted": ["Lower Chest", "Triceps", "Shoulders"],
+        "equipment": ["Parallel Bars"],
+        "instructions": [
+          "Grip parallel bars and lift yourself up",
+          "Lean forward slightly to emphasize chest",
+          "Lower body until shoulders are below elbows",
+          "Push back up to starting position"
+        ],
+        "benefits": "Builds lower chest and triceps strength",
+        "image": "",
+        "videoLink": ""
+      }
+    ],
+    "Back": [
+      {
+        "id": 1,
+        "name": "Pull-Ups",
+        "category": "Back",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "6-10",
+        "restTime": "60s",
+        "musclesTargeted": ["Lats", "Biceps", "Rhomboids"],
+        "equipment": ["Pull-up Bar"],
+        "instructions": [
+          "Grip bar slightly wider than shoulder-width",
+          "Hang with arms fully extended",
+          "Pull body up until chin clears bar",
+          "Lower with control to starting position"
+        ],
+        "benefits": "Builds back width and overall upper body strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Bent-Over Rows",
+        "category": "Back",
+        "difficulty": "Intermediate",
+        "sets": 4,
+        "reps": "8-12",
+        "restTime": "60s",
+        "musclesTargeted": ["Lats", "Rhomboids", "Rear Delts"],
+        "equipment": ["Barbell"],
+        "instructions": [
+          "Stand with feet shoulder-width apart",
+          "Bend knees slightly and hinge at hips",
+          "Grip barbell with overhand grip",
+          "Pull bar to lower chest, squeeze back muscles"
+        ],
+        "benefits": "Develops back thickness and posture",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Lat Pulldowns",
+        "category": "Back",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "10-12",
+        "restTime": "45s",
+        "musclesTargeted": ["Lats", "Biceps", "Upper Back"],
+        "equipment": ["Cable Machine"],
+        "instructions": [
+          "Sit at lat pulldown machine",
+          "Grip bar wider than shoulder-width",
+          "Pull bar down to upper chest",
+          "Return with control to starting position"
+        ],
+        "benefits": "Excellent for building back width",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "Deadlifts",
+        "category": "Back",
+        "difficulty": "Advanced",
+        "sets": 3,
+        "reps": "5-8",
+        "restTime": "90-120s",
+        "musclesTargeted": ["Lower Back", "Glutes", "Hamstrings", "Full Back"],
+        "equipment": ["Barbell"],
+        "instructions": [
+          "Stand with feet hip-width apart, barbell over mid-foot",
+          "Bend at hips and knees to grip bar",
+          "Keep back straight and lift bar by extending hips",
+          "Stand tall, then lower bar with control"
+        ],
+        "benefits": "Full body compound movement, builds overall strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Seated Cable Rows",
+        "category": "Back",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "10-12",
+        "restTime": "45s",
+        "musclesTargeted": ["Middle Back", "Rhomboids", "Lats"],
+        "equipment": ["Cable Machine"],
+        "instructions": [
+          "Sit at cable row machine with feet braced",
+          "Grip handle with neutral grip",
+          "Pull handle to abdomen, squeeze shoulder blades",
+          "Return with control to starting position"
+        ],
+        "benefits": "Targets middle back for thickness",
+        "image": "",
+        "videoLink": ""
+      }
+    ],
+    "Shoulders": [
+      {
+        "id": 1,
+        "name": "Overhead Press",
+        "category": "Shoulders",
+        "difficulty": "Intermediate",
+        "sets": 4,
+        "reps": "8-12",
+        "restTime": "60s",
+        "musclesTargeted": ["Front Delts", "Side Delts", "Triceps"],
+        "equipment": ["Barbell"],
+        "instructions": [
+          "Stand with feet shoulder-width apart",
+          "Grip barbell at shoulder level",
+          "Press barbell overhead until arms are fully extended",
+          "Lower with control to starting position"
+        ],
+        "benefits": "Builds overall shoulder mass and strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Lateral Raises",
+        "category": "Shoulders",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "12-15",
+        "restTime": "45s",
+        "musclesTargeted": ["Side Delts"],
+        "equipment": ["Dumbbells"],
+        "instructions": [
+          "Stand holding dumbbells at sides",
+          "Raise arms out to sides until parallel to floor",
+          "Keep slight bend in elbows",
+          "Lower with control to starting position"
+        ],
+        "benefits": "Develops shoulder width and definition",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Front Raises",
+        "category": "Shoulders",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "12-15",
+        "restTime": "45s",
+        "musclesTargeted": ["Front Delts"],
+        "equipment": ["Dumbbells"],
+        "instructions": [
+          "Stand holding dumbbells in front of thighs",
+          "Raise one arm forward until parallel to floor",
+          "Alternate arms or do both simultaneously",
+          "Lower with control to starting position"
+        ],
+        "benefits": "Targets front shoulder development",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "Face Pulls",
+        "category": "Shoulders",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "15-20",
+        "restTime": "45s",
+        "musclesTargeted": ["Rear Delts", "Upper Back"],
+        "equipment": ["Cable Machine"],
+        "instructions": [
+          "Set cable at upper chest height",
+          "Grip rope attachment with both hands",
+          "Pull rope towards face, separating hands at end",
+          "Squeeze rear delts and upper back"
+        ],
+        "benefits": "Improves posture and rear delt development",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Arnold Press",
+        "category": "Shoulders",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "10-12",
+        "restTime": "60s",
+        "musclesTargeted": ["All Deltoid Heads"],
+        "equipment": ["Dumbbells"],
+        "instructions": [
+          "Sit on bench with back support",
+          "Start with dumbbells at shoulder height, palms facing you",
+          "Press upward while rotating palms to face forward",
+          "Reverse motion on the way down"
+        ],
+        "benefits": "Targets all three deltoid heads comprehensively",
+        "image": "",
+        "videoLink": ""
+      }
+    ],
+    "Arms": [
+      {
+        "id": 1,
+        "name": "Bicep Curls",
+        "category": "Arms",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "12-15",
+        "restTime": "45s",
+        "musclesTargeted": ["Biceps"],
+        "equipment": ["Dumbbells"],
+        "instructions": [
+          "Stand holding dumbbells at sides with palms forward",
+          "Curl one arm up towards shoulder",
+          "Squeeze bicep at top of movement",
+          "Lower with control and alternate arms"
+        ],
+        "benefits": "Builds bicep size and strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Tricep Pushdowns",
+        "category": "Arms",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "12-15",
+        "restTime": "45s",
+        "musclesTargeted": ["Triceps"],
+        "equipment": ["Cable Machine"],
+        "instructions": [
+          "Stand facing cable machine with rope attachment",
+          "Grip rope with palms facing each other",
+          "Push rope down until arms are fully extended",
+          "Return with control to starting position"
+        ],
+        "benefits": "Isolates and develops triceps",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Hammer Curls",
+        "category": "Arms",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "12-15",
+        "restTime": "45s",
+        "musclesTargeted": ["Brachialis", "Forearms"],
+        "equipment": ["Dumbbells"],
+        "instructions": [
+          "Stand holding dumbbells with palms facing each other",
+          "Curl both arms up simultaneously",
+          "Keep palms facing each other throughout movement",
+          "Lower with control to starting position"
+        ],
+        "benefits": "Builds arm thickness and forearm strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "Skull Crushers",
+        "category": "Arms",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "10-12",
+        "restTime": "45s",
+        "musclesTargeted": ["Triceps"],
+        "equipment": ["EZ Bar", "Bench"],
+        "instructions": [
+          "Lie on bench holding EZ bar above chest",
+          "Lower bar towards forehead by bending elbows",
+          "Keep upper arms stationary",
+          "Extend arms back to starting position"
+        ],
+        "benefits": "Targets long head of triceps for arm size",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Preacher Curls",
+        "category": "Arms",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "10-12",
+        "restTime": "45s",
+        "musclesTargeted": ["Biceps"],
+        "equipment": ["Preacher Bench", "Dumbbells"],
+        "instructions": [
+          "Sit at preacher bench with arms resting on pad",
+          "Curl dumbbell up towards shoulders",
+          "Squeeze bicep at top of movement",
+          "Lower with control to starting position"
+        ],
+        "benefits": "Isolates biceps and prevents cheating",
+        "image": "",
+        "videoLink": ""
+      }
+    ],
+    "Legs": [
+      {
+        "id": 1,
+        "name": "Squats",
+        "category": "Legs",
+        "difficulty": "Intermediate",
+        "sets": 4,
+        "reps": "8-12",
+        "restTime": "60-90s",
+        "musclesTargeted": ["Quads", "Glutes", "Hamstrings"],
+        "equipment": ["Barbell"],
+        "instructions": [
+          "Stand with barbell across upper back",
+          "Keep chest up and back straight",
+          "Lower until thighs are parallel to floor",
+          "Drive through heels to return to standing"
+        ],
+        "benefits": "King of leg exercises, builds overall leg strength",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Leg Press",
+        "category": "Legs",
+        "difficulty": "Beginner",
+        "sets": 4,
+        "reps": "10-15",
+        "restTime": "60s",
+        "musclesTargeted": ["Quads", "Glutes"],
+        "equipment": ["Leg Press Machine"],
+        "instructions": [
+          "Sit in leg press machine with feet shoulder-width",
+          "Lower weight until knees are at 90 degrees",
+          "Press platform away until legs are extended",
+          "Don't lock knees at top"
+        ],
+        "benefits": "Builds quad strength with less spinal loading",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Lunges",
+        "category": "Legs",
+        "difficulty": "Beginner",
+        "sets": 3,
+        "reps": "10-12 each leg",
+        "restTime": "45s",
+        "musclesTargeted": ["Quads", "Glutes", "Hamstrings"],
+        "equipment": ["Bodyweight", "Dumbbells (optional)"],
+        "instructions": [
+          "Stand with feet together",
+          "Step forward with one leg and lower hips",
+          "Keep front knee behind toes",
+          "Push back to starting position"
+        ],
+        "benefits": "Develops leg strength and balance",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "Romanian Deadlifts",
+        "category": "Legs",
+        "difficulty": "Intermediate",
+        "sets": 3,
+        "reps": "10-12",
+        "restTime": "60s",
+        "musclesTargeted": ["Hamstrings", "Glutes"],
+        "equipment": ["Barbell"],
+        "instructions": [
+          "Stand holding barbell with overhand grip",
+          "Keep legs slightly bent and back straight",
+          "Hinge at hips, lowering barbell down legs",
+          "Return to standing by squeezing glutes"
+        ],
+        "benefits": "Excellent for hamstring and glute development",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Calf Raises",
+        "category": "Legs",
+        "difficulty": "Beginner",
+        "sets": 4,
+        "reps": "15-20",
+        "restTime": "30s",
+        "musclesTargeted": ["Calves"],
+        "equipment": ["Calf Raise Machine"],
+        "instructions": [
+          "Stand on calf raise machine with shoulders under pads",
+          "Lower heels as far as possible",
+          "Raise onto toes as high as possible",
+          "Squeeze calves at top of movement"
+        ],
+        "benefits": "Builds calf size and definition",
+        "image": "",
+        "videoLink": ""
+      }
+    ],
+    "Cardio": [
+      {
+        "id": 1,
+        "name": "Running",
+        "category": "Cardio",
+        "difficulty": "Beginner",
+        "duration": "20-30 minutes",
+        "intensity": "Moderate-High",
+        "caloriesBurned": "300-400",
+        "equipment": ["Running Shoes"],
+        "instructions": [
+          "Start with 5-minute warm-up walk",
+          "Gradually increase to running pace",
+          "Maintain steady breathing rhythm",
+          "Cool down with 5-minute walk"
+        ],
+        "benefits": "Improves cardiovascular health and burns calories",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Jump Rope",
+        "category": "Cardio",
+        "difficulty": "Beginner",
+        "duration": "15-20 minutes",
+        "intensity": "High",
+        "caloriesBurned": "200-300",
+        "equipment": ["Jump Rope"],
+        "instructions": [
+          "Hold rope handles with elbows close to body",
+          "Jump with both feet, keeping jumps small",
+          "Maintain consistent rhythm",
+          "Land softly on balls of feet"
+        ],
+        "benefits": "High calorie burn and improves coordination",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Cycling",
+        "category": "Cardio",
+        "difficulty": "Beginner",
+        "duration": "30-45 minutes",
+        "intensity": "Moderate",
+        "caloriesBurned": "400-600",
+        "equipment": ["Stationary Bike", "Outdoor Bike"],
+        "instructions": [
+          "Adjust seat to proper height",
+          "Maintain steady pedaling rhythm",
+          "Keep upper body relaxed",
+          "Vary resistance for interval training"
+        ],
+        "benefits": "Low impact cardio, great for knee health",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "HIIT (High-Intensity Interval Training)",
+        "category": "Cardio",
+        "difficulty": "Advanced",
+        "duration": "20-30 minutes",
+        "intensity": "Very High",
+        "caloriesBurned": "400-500",
+        "equipment": ["Bodyweight", "Mat"],
+        "instructions": [
+          "30 seconds high intensity exercise",
+          "30 seconds rest or low intensity",
+          "Repeat for 20-30 minutes",
+          "Include exercises like burpees, mountain climbers, jumping jacks"
+        ],
+        "benefits": "Maximum calorie burn in minimal time, EPOC effect",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Swimming",
+        "category": "Cardio",
+        "difficulty": "Intermediate",
+        "duration": "30-45 minutes",
+        "intensity": "Moderate-High",
+        "caloriesBurned": "400-700",
+        "equipment": ["Swimsuit", "Goggles"],
+        "instructions": [
+          "Start with warm-up laps",
+          "Use different strokes (freestyle, breaststroke)",
+          "Maintain steady breathing pattern",
+          "Cool down with slow laps"
+        ],
+        "benefits": "Full body workout, zero impact on joints",
+        "image": "",
+        "videoLink": ""
+      }
+    ],
+    "WeightLoss": [
+      {
+        "id": 1,
+        "name": "Burpees",
+        "category": "WeightLoss",
+        "difficulty": "Intermediate",
+        "sets": 4,
+        "reps": "10-15",
+        "restTime": "30s",
+        "caloriesBurned": "10-15 per rep",
+        "equipment": ["Bodyweight"],
+        "instructions": [
+          "Start in standing position",
+          "Drop into squat position with hands on floor",
+          "Kick feet back into plank position",
+          "Do a push-up, then return to squat and jump up"
+        ],
+        "benefits": "Full body exercise that maximizes calorie burn",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Kettlebell Swings",
+        "category": "WeightLoss",
+        "difficulty": "Intermediate",
+        "sets": 4,
+        "reps": "15-20",
+        "restTime": "45s",
+        "caloriesBurned": "200-300 per session",
+        "equipment": ["Kettlebell"],
+        "instructions": [
+          "Stand with feet wider than shoulders",
+          "Hold kettlebell with both hands",
+          "Hinge at hips and swing kettlebell between legs",
+          "Thrust hips forward to swing kettlebell to chest height"
+        ],
+        "benefits": "Builds explosive power and burns fat efficiently",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Box Jumps",
+        "category": "WeightLoss",
+        "difficulty": "Intermediate",
+        "sets": 4,
+        "reps": "10-12",
+        "restTime": "45s",
+        "caloriesBurned": "150-250 per session",
+        "equipment": ["Plyo Box"],
+        "instructions": [
+          "Stand facing box with feet shoulder-width",
+          "Swing arms and jump onto box",
+          "Land softly with knees slightly bent",
+          "Step back down and repeat"
+        ],
+        "benefits": "Plyometric exercise that boosts metabolism",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 4,
+        "name": "Battle Ropes",
+        "category": "WeightLoss",
+        "difficulty": "Beginner",
+        "sets": 4,
+        "duration": "30-45 seconds",
+        "restTime": "30s",
+        "caloriesBurned": "300-400 per session",
+        "equipment": ["Battle Ropes"],
+        "instructions": [
+          "Stand with feet shoulder-width apart",
+          "Hold one rope in each hand",
+          "Alternate arms in wave motion",
+          "Maintain fast pace for duration"
+        ],
+        "benefits": "High-intensity cardio that builds upper body endurance",
+        "image": "",
+        "videoLink": ""
+      },
+      {
+        "id": 5,
+        "name": "Rowing Machine",
+        "category": "WeightLoss",
+        "difficulty": "Beginner",
+        "duration": "20-30 minutes",
+        "intensity": "Moderate-High",
+        "caloriesBurned": "400-600",
+        "equipment": ["Rowing Machine"],
+        "instructions": [
+          "Start with legs extended, leaning slightly back",
+          "Pull handle to chest while leaning back",
+          "Extend arms forward, then bend knees to return",
+          "Maintain smooth, continuous motion"
+        ],
+        "benefits": "Full body cardio that builds endurance",
+        "image": "",
+        "videoLink": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+.weekly-workout {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.weekly-workout .popular-header {
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+.weekly-workout .popular-header p {
+  color: var(--color-red);
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.weekly-workout .popular-header p::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: var(--color-red);
+  left: -35px;
+  top: 50%;
+  transform: translateX(-50%);
+}
+.weekly-workout .popular-header p::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: var(--color-red);
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.weekly-workout .popular-header h2 {
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .weekly-workout .popular-header h2 {
+    font-size: 25px;
+  }
+}
+
+.weekly-workout .content {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .weekly-workout .content {
+    flex-direction: column;
+  }
+}
+
+.weekly-workout .content .left {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.weekly-workout .content .left .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0;
+}
+.weekly-workout .content .left img {
+  width: 100%;
+  height: 525px;
+}
+@media (max-width: 768px) {
+  .weekly-workout .content .left img {
+    height: 300px;
+  }
+}
+.weekly-workout .content .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.weekly-workout .content .r-content {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.weekly-workout .content .r-content .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.weekly-workout .content .right img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.weekly-workout .content h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.weekly-workout .content .icon {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+.weekly-workout .content .left .icon {
+  top: 60%;
+}
+
+.weekly-workout .content .left:hover,
+.weekly-workout .content .r-content:hover {
+  transform: scale(1.05);
+}
+
+.weekly-workout .content .left :hover h3,
+.weekly-workout .content .r-content:hover h3,
+.weekly-workout .content .r-content:hover .icon,
+.weekly-workout .content .left :hover .icon {
+  opacity: 1;
+}
+
+.weekly-workout .content .left:hover .overlay,
+.weekly-workout .content .r-content:hover .overlay {
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .weekly-workout .content .left .overlay,
+  .weekly-workout .content .r-content .overlay {
+    opacity: 0.5;
+  }
+  .weekly-workout .content .left h3,
+  .weekly-workout .content .r-content h3,
+  .weekly-workout .content .r-content .icon,
+  .weekly-workout .content .left .icon {
+    opacity: 0.7;
+  }
+}

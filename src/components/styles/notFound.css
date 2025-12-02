@@ -1,0 +1,18 @@
+.not-found .container {
+  position: relative;
+  height: 100vh;
+}
+
+.not-found .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.not-found .content .icon {
+  font-size: 200px;
+  color: var(--color-red);
+  margin-bottom: 30px;
+}

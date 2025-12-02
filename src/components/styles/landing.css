@@ -1,0 +1,143 @@
+.landing {
+  background-image: url(/GYM/Fit-Fuel/src/images/landingbg.jpg);
+  background-size: cover;
+}
+
+.landing .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.landing .container {
+  z-index: 20;
+}
+
+.landing .container .main {
+  height: 100vh;
+}
+
+.landing .container .main .left {
+  position: relative;
+}
+
+.landing .container .main .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .landing .container .main .text {
+    width: 80%;
+  }
+}
+
+.landing .container .main .text h2 {
+  font-size: 80px;
+}
+
+@media (max-width: 768px) {
+  .landing .container .main .text h2 {
+    font-size: 50px;
+  }
+}
+
+.landing .container .main .text p {
+  margin-top: 10px;
+  color: var(--color-gray-text);
+}
+@media (max-width: 768px) {
+  .landing .container .main .text p {
+    font-size: 12px;
+  }
+}
+
+.landing .container .main .text .and {
+  display: block;
+  color: var(--color-red);
+  font-size: 40px;
+  font-weight: 800;
+}
+.landing .container .main .butn button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  color: #fff;
+  margin: 60px 10px 0;
+}
+
+.landing .container .main .butn .hover {
+  background-color: var(--color-red);
+}
+
+.landing .container .main .butn .n-hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .landing .container .main .butn button {
+    margin-top: 50px;
+    width: 200px;
+  }
+  .landing .container .main .butn .n-hover {
+    display: none;
+  }
+}
+
+.landing .container .main .butn button:hover {
+  background-color: #ff3030;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+  transform: translateY(-3px);
+}
+.landing .container .main .butn button:active {
+  transform: scale(0.96);
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
+}
+
+.landing .footer {
+  background-color: var(--color-gray-dark);
+  text-align: center;
+  padding: 5px;
+}
+
+.landing .footer h2 {
+  letter-spacing: 9px;
+  font-size: 45px;
+}
+@media (max-width: 768px) {
+  .landing .footer h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+}
+
+.landing .container .main .text .g {
+  position: absolute;
+  transition: transform 0.4s ease-in-out;
+  animation-name: routate-g;
+  animation-duration: 3.9s;
+  animation-iteration-count: infinite;
+  animation-direction: inherit;
+}
+
+@keyframes routate-g {
+  to {
+    transform: rotate(360deg);
+    color: #ff3030;
+  }
+}

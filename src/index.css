@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+  --color-bg-dark: #0f1217;
+  --color-bg-light: #0d0f16;
+  --color-gray-dark: #1b1d28;
+  --color-gray-light: #242d32;
+  --color-gray-text: #8c8c8c;
+  --color-red: #e30613;
+  --color-accent: #ff4c29;
+  --color-white: #ffffff;
+  --font-body: "Poppins", sans-serif;
+  --font-button: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg-light);
+  color: #ffffff;
+  min-height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  background-color: #e30613;
+  color: #fff;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4c29;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1800px;
+  }
+}

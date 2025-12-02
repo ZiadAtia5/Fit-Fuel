@@ -1,0 +1,30 @@
+.load {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  height: 100vh;
+}
+.load div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  margin: 0 5px;
+  animation-name: upanddown;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.two {
+  animation-delay: 0.3s;
+}
+.three {
+  animation-delay: 0.6s;
+}
+@keyframes upanddown {
+  to {
+    opacity: 0.2;
+    transform: translateY(-20px);
+  }
+}

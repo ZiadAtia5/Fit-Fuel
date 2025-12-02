@@ -1,0 +1,173 @@
+.start-exercise {
+  padding-top: 100px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Gym\Fit-Fuel\src\images\landingbg.jpg);
+  background-size: cover;
+}
+
+.start-exercise::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000000be;
+  z-index: 1;
+}
+
+.start-exercise .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 20;
+  position: relative;
+}
+
+.start-exercise .content .c-header {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.start-exercise .content .c-image {
+  width: 450px;
+  height: 300px;
+}
+.start-exercise .content .c-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.start-exercise .content .c-main {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  margin: 20px 0;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #ff484846;
+}
+.start-exercise .content .c-main .box {
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+}
+.start-exercise .content .c-main .box h3 {
+  margin-top: 10px;
+}
+.start-exercise .content .c-main .box p {
+  color: var(--color-gray-text);
+}
+.start-exercise .content .c-main .box .main-icon {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: var(--color-red);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+}
+
+.start-exercise .c-footer .box {
+  text-align: center;
+  text-transform: uppercase;
+}
+.start-exercise .content .c-footer .medle {
+  width: 150px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  position: relative;
+}
+
+.start-exercise .c-footer {
+  display: flex;
+  position: fixed;
+  bottom: 25px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  width: 350px;
+  background-color: #ffffff46;
+  border-radius: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.start-exercise .c-footer .left,
+.start-exercise .c-footer .right {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+}
+
+.start-exercise .c-footer .left.disabled,
+.start-exercise .c-footer .right.disabled {
+  opacity: 0.1;
+}
+.start-exercise .c-footer .f-icon {
+  font-size: 24px;
+  color: var(--color-red);
+  transition: 0.2s;
+}
+.start-exercise .c-footer .left:hover .f-icon,
+.start-exercise .c-footer .right:hover .f-icon {
+  transform: scale(1.2);
+}
+
+.start-exercise .child {
+  height: 100%;
+  transition: width 0.5s ease;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .start-exercise {
+    padding-top: 60px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .start-exercise .content .c-image {
+    width: 90%;
+    height: 200px;
+  }
+
+  .start-exercise .content .c-main {
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .start-exercise .content .c-main .box {
+    margin-bottom: 15px;
+  }
+
+  .start-exercise .c-footer {
+    width: 90%;
+    bottom: 20px;
+    padding: 10px;
+  }
+
+  .start-exercise .c-footer .left,
+  .start-exercise .c-footer .right {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .start-exercise .content .c-header h2,
+  .start-exercise .content .c-header p {
+    text-align: center;
+  }
+}

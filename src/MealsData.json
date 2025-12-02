@@ -1,0 +1,915 @@
+{
+  "Meals": {
+    "Cutting": [
+      {
+        "id": 1,
+        "name": "Oats with Egg Whites and Banana",
+        "category": "Breakfast",
+        "calories": 410,
+        "protein": 32,
+        "carbs": 48,
+        "fat": 9,
+        "prepTime": "5 min",
+        "cookTime": "5 min",
+        "totalTime": "10 min",
+        "ingredients": [
+          "60g rolled oats",
+          "4 egg whites",
+          "1 medium banana, sliced",
+          "200ml skim milk"
+        ],
+        "instructions": [
+          "Cook oats with skim milk until creamy.",
+          "Add sliced banana on top.",
+          "Scramble egg whites separately and serve with oats."
+        ],
+        "description": "High-protein, low-fat breakfast to keep you full while cutting.",
+        "image": ""
+      },
+      {
+        "id": 2,
+        "name": "Greek Yogurt with Berries and Almonds",
+        "category": "Breakfast",
+        "calories": 380,
+        "protein": 30,
+        "carbs": 35,
+        "fat": 12,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "200g non-fat Greek yogurt",
+          "1/2 cup mixed berries",
+          "15g almonds",
+          "1 tsp honey"
+        ],
+        "instructions": [
+          "Place Greek yogurt in a bowl.",
+          "Add berries and almonds on top.",
+          "Drizzle honey and serve."
+        ],
+        "description": "Protein-rich breakfast with natural sweetness and healthy fats.",
+        "image": ""
+      },
+      {
+        "id": 3,
+        "name": "Spinach and Mushroom Egg White Omelette",
+        "category": "Breakfast",
+        "calories": 350,
+        "protein": 33,
+        "carbs": 20,
+        "fat": 10,
+        "prepTime": "5 min",
+        "cookTime": "7 min",
+        "totalTime": "12 min",
+        "ingredients": [
+          "5 egg whites",
+          "50g spinach",
+          "50g mushrooms, sliced",
+          "1 tsp olive oil",
+          "1 slice whole grain toast"
+        ],
+        "instructions": [
+          "Heat olive oil in a pan and sauté mushrooms and spinach.",
+          "Add egg whites and cook until set.",
+          "Serve with whole grain toast."
+        ],
+        "description": "Low-fat, high-protein breakfast with vegetables for fullness.",
+        "image": ""
+      },
+      {
+        "id": 4,
+        "name": "Cottage Cheese with Pineapple and Chia Seeds",
+        "category": "Breakfast",
+        "calories": 360,
+        "protein": 28,
+        "carbs": 40,
+        "fat": 8,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "200g low-fat cottage cheese",
+          "1/2 cup pineapple chunks",
+          "1 tsp chia seeds"
+        ],
+        "instructions": [
+          "Mix cottage cheese with pineapple.",
+          "Sprinkle chia seeds on top and serve."
+        ],
+        "description": "Quick breakfast with protein and natural carbs for energy.",
+        "image": ""
+      },
+      {
+        "id": 5,
+        "name": "Protein Smoothie with Spinach and Berries",
+        "category": "Breakfast",
+        "calories": 390,
+        "protein": 35,
+        "carbs": 40,
+        "fat": 7,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "1 scoop whey protein (30g)",
+          "1 cup unsweetened almond milk",
+          "1/2 cup mixed berries",
+          "1 cup spinach",
+          "1 small banana"
+        ],
+        "instructions": [
+          "Blend all ingredients until smooth.",
+          "Pour into a glass and serve."
+        ],
+        "description": "Quick, high-protein smoothie perfect for cutting phase.",
+        "image": ""
+      },
+      {
+        "id": 6,
+        "name": "Grilled Chicken with Quinoa and Broccoli",
+        "category": "Lunch",
+        "calories": 520,
+        "protein": 48,
+        "carbs": 55,
+        "fat": 8,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g grilled chicken breast",
+          "100g cooked quinoa",
+          "100g steamed broccoli",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Season chicken with salt and pepper and grill until cooked through.",
+          "Cook quinoa according to package instructions.",
+          "Steam broccoli and drizzle with olive oil.",
+          "Serve chicken with quinoa and broccoli."
+        ],
+        "description": "Lean protein lunch with complex carbs and vegetables.",
+        "image": ""
+      },
+      {
+        "id": 7,
+        "name": "Turkey Whole Wheat Wrap with Veggies",
+        "category": "Lunch",
+        "calories": 480,
+        "protein": 40,
+        "carbs": 50,
+        "fat": 10,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "100g sliced turkey breast",
+          "1 whole wheat tortilla",
+          "Lettuce, tomato, cucumber",
+          "1 tbsp light mayonnaise"
+        ],
+        "instructions": [
+          "Place turkey and vegetables on the tortilla.",
+          "Spread mayonnaise, roll up, and serve."
+        ],
+        "description": "Healthy wrap providing lean protein and vegetables for lunch.",
+        "image": ""
+      },
+      {
+        "id": 8,
+        "name": "Tuna Salad with Mixed Greens",
+        "category": "Lunch",
+        "calories": 460,
+        "protein": 42,
+        "carbs": 20,
+        "fat": 20,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "150g tuna (water-packed)",
+          "100g mixed salad greens",
+          "50g cherry tomatoes",
+          "1 tbsp olive oil",
+          "1 slice whole grain bread"
+        ],
+        "instructions": [
+          "Mix tuna with olive oil and vegetables.",
+          "Serve with a slice of whole grain bread."
+        ],
+        "description": "Light and nutritious lunch high in protein and healthy fats.",
+        "image": ""
+      },
+      {
+        "id": 9,
+        "name": "Lentil Soup with Grilled Vegetables",
+        "category": "Lunch",
+        "calories": 450,
+        "protein": 28,
+        "carbs": 65,
+        "fat": 6,
+        "prepTime": "10 min",
+        "cookTime": "20 min",
+        "totalTime": "30 min",
+        "ingredients": [
+          "1.5 cups cooked lentils",
+          "Mixed grilled vegetables (zucchini, carrot, onion)",
+          "Vegetable broth"
+        ],
+        "instructions": [
+          "Sauté vegetables until soft.",
+          "Add lentils and broth and simmer for 15 minutes.",
+          "Serve hot."
+        ],
+        "description": "Fiber-rich, plant-based lunch with moderate protein.",
+        "image": ""
+      },
+      {
+        "id": 10,
+        "name": "Salmon Salad with Quinoa",
+        "category": "Lunch",
+        "calories": 540,
+        "protein": 42,
+        "carbs": 45,
+        "fat": 18,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "100g grilled salmon",
+          "3/4 cup cooked quinoa",
+          "Mixed salad greens",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Grill salmon until cooked through.",
+          "Cook quinoa according to package instructions.",
+          "Serve salmon on top of quinoa and greens with olive oil."
+        ],
+        "description": "Balanced meal with omega-3 fats and high protein content.",
+        "image": ""
+      },
+      {
+        "id": 11,
+        "name": "Grilled Chicken with Steamed Vegetables",
+        "category": "Dinner",
+        "calories": 480,
+        "protein": 45,
+        "carbs": 35,
+        "fat": 12,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g grilled chicken breast",
+          "100g steamed broccoli",
+          "100g steamed carrots",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Season chicken with herbs and grill until cooked.",
+          "Steam broccoli and carrots.",
+          "Serve chicken with vegetables and drizzle olive oil."
+        ],
+        "description": "Light, protein-packed dinner ideal for cutting phase.",
+        "image": ""
+      },
+      {
+        "id": 12,
+        "name": "Baked Cod with Asparagus",
+        "category": "Dinner",
+        "calories": 420,
+        "protein": 40,
+        "carbs": 25,
+        "fat": 18,
+        "prepTime": "10 min",
+        "cookTime": "20 min",
+        "totalTime": "30 min",
+        "ingredients": [
+          "150g cod fillet",
+          "100g asparagus",
+          "1 tsp olive oil",
+          "Lemon juice"
+        ],
+        "instructions": [
+          "Season cod with salt, pepper, and lemon juice.",
+          "Bake in oven for 15–20 minutes.",
+          "Steam asparagus and serve together with cod."
+        ],
+        "description": "Healthy dinner with lean protein and omega-3 rich fish.",
+        "image": ""
+      },
+      {
+        "id": 13,
+        "name": "Turkey Meatballs with Zucchini Noodles",
+        "category": "Dinner",
+        "calories": 500,
+        "protein": 42,
+        "carbs": 40,
+        "fat": 16,
+        "prepTime": "15 min",
+        "cookTime": "20 min",
+        "totalTime": "35 min",
+        "ingredients": [
+          "150g ground turkey",
+          "100g zucchini noodles",
+          "50g tomato sauce",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Form turkey into meatballs and bake until cooked.",
+          "Sauté zucchini noodles in olive oil.",
+          "Add tomato sauce over meatballs and serve with noodles."
+        ],
+        "description": "High-protein dinner with low-calorie noodles perfect for cutting.",
+        "image": ""
+      },
+      {
+        "id": 14,
+        "name": "Grilled Salmon with Spinach Salad",
+        "category": "Dinner",
+        "calories": 520,
+        "protein": 45,
+        "carbs": 25,
+        "fat": 25,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g grilled salmon",
+          "100g fresh spinach",
+          "50g cherry tomatoes",
+          "1 tbsp olive oil"
+        ],
+        "instructions": [
+          "Grill salmon until cooked through.",
+          "Mix spinach and tomatoes with olive oil.",
+          "Serve salmon on top of salad."
+        ],
+        "description": "Dinner rich in omega-3 and antioxidants for cutting phase.",
+        "image": ""
+      },
+      {
+        "id": 15,
+        "name": "Egg White Veggie Scramble",
+        "category": "Dinner",
+        "calories": 380,
+        "protein": 35,
+        "carbs": 20,
+        "fat": 14,
+        "prepTime": "5 min",
+        "cookTime": "7 min",
+        "totalTime": "12 min",
+        "ingredients": [
+          "5 egg whites",
+          "50g bell peppers",
+          "50g mushrooms",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Sauté vegetables in olive oil.",
+          "Add egg whites and cook until set.",
+          "Serve warm."
+        ],
+        "description": "Light, protein-rich dinner with low carbs.",
+        "image": ""
+      },
+      {
+        "id": 16,
+        "name": "Protein Shake with Almond Butter",
+        "category": "Snack",
+        "calories": 320,
+        "protein": 30,
+        "carbs": 25,
+        "fat": 12,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "1 scoop whey protein",
+          "1 tbsp almond butter",
+          "1 cup unsweetened almond milk",
+          "1 small banana"
+        ],
+        "instructions": [
+          "Blend all ingredients until smooth.",
+          "Serve chilled."
+        ],
+        "description": "Quick, high-protein snack to maintain energy between meals.",
+        "image": ""
+      },
+      {
+        "id": 17,
+        "name": "Cottage Cheese with Cucumber Slices",
+        "category": "Snack",
+        "calories": 250,
+        "protein": 25,
+        "carbs": 10,
+        "fat": 12,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": ["200g low-fat cottage cheese", "50g cucumber slices"],
+        "instructions": [
+          "Place cottage cheese in a bowl.",
+          "Serve with cucumber slices."
+        ],
+        "description": "Low-carb, high-protein snack for cutting phase.",
+        "image": ""
+      },
+      {
+        "id": 18,
+        "name": "Hard-Boiled Eggs with Carrot Sticks",
+        "category": "Snack",
+        "calories": 220,
+        "protein": 18,
+        "carbs": 10,
+        "fat": 14,
+        "prepTime": "5 min",
+        "cookTime": "10 min",
+        "totalTime": "15 min",
+        "ingredients": ["3 hard-boiled eggs", "100g carrot sticks"],
+        "instructions": [
+          "Boil eggs for 10 minutes and peel.",
+          "Serve with carrot sticks."
+        ],
+        "description": "Simple protein snack to keep you full between meals.",
+        "image": ""
+      },
+      {
+        "id": 19,
+        "name": "Tuna and Avocado Salad",
+        "category": "Snack",
+        "calories": 310,
+        "protein": 28,
+        "carbs": 12,
+        "fat": 18,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "100g tuna (water-packed)",
+          "50g avocado",
+          "50g lettuce",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Mix tuna with avocado and lettuce.",
+          "Drizzle olive oil and serve."
+        ],
+        "description": "Protein-rich, healthy fat snack for cutting.",
+        "image": ""
+      },
+      {
+        "id": 20,
+        "name": "Greek Yogurt with Walnuts",
+        "category": "Snack",
+        "calories": 300,
+        "protein": 25,
+        "carbs": 15,
+        "fat": 16,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": ["200g non-fat Greek yogurt", "15g walnuts"],
+        "instructions": ["Mix walnuts with Greek yogurt and serve."],
+        "description": "High-protein snack with healthy fats for cutting phase.",
+        "image": ""
+      }
+    ],
+    "Bulking": [
+      {
+        "id": 1,
+        "name": "Peanut Butter Oats with Whole Milk",
+        "category": "Breakfast",
+        "calories": 650,
+        "protein": 35,
+        "carbs": 70,
+        "fat": 20,
+        "prepTime": "5 min",
+        "cookTime": "5 min",
+        "totalTime": "10 min",
+        "ingredients": [
+          "80g rolled oats",
+          "2 tbsp peanut butter",
+          "250ml whole milk",
+          "1 medium banana"
+        ],
+        "instructions": [
+          "Cook oats with whole milk until creamy.",
+          "Stir in peanut butter and sliced banana.",
+          "Serve warm."
+        ],
+        "description": "Calorie-dense breakfast for sustained energy and muscle growth.",
+        "image": ""
+      },
+      {
+        "id": 2,
+        "name": "Avocado Toast with Eggs",
+        "category": "Breakfast",
+        "calories": 600,
+        "protein": 28,
+        "carbs": 55,
+        "fat": 28,
+        "prepTime": "5 min",
+        "cookTime": "7 min",
+        "totalTime": "12 min",
+        "ingredients": [
+          "2 slices whole grain bread",
+          "1 avocado",
+          "2 eggs",
+          "Salt and pepper"
+        ],
+        "instructions": [
+          "Toast bread slices.",
+          "Mash avocado and spread on toast.",
+          "Cook eggs and place on top.",
+          "Season with salt and pepper."
+        ],
+        "description": "High-calorie breakfast with healthy fats and protein for bulking.",
+        "image": ""
+      },
+      {
+        "id": 3,
+        "name": "Protein Pancakes with Honey",
+        "category": "Breakfast",
+        "calories": 620,
+        "protein": 40,
+        "carbs": 70,
+        "fat": 15,
+        "prepTime": "10 min",
+        "cookTime": "10 min",
+        "totalTime": "20 min",
+        "ingredients": [
+          "50g oat flour",
+          "1 scoop whey protein",
+          "1 egg",
+          "100ml whole milk",
+          "1 tsp honey"
+        ],
+        "instructions": [
+          "Mix all ingredients into a smooth batter.",
+          "Cook pancakes on a non-stick pan until golden.",
+          "Drizzle honey on top and serve."
+        ],
+        "description": "High-protein, high-calorie breakfast perfect for muscle gain.",
+        "image": ""
+      },
+      {
+        "id": 4,
+        "name": "Greek Yogurt with Granola and Banana",
+        "category": "Breakfast",
+        "calories": 580,
+        "protein": 30,
+        "carbs": 65,
+        "fat": 18,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "200g full-fat Greek yogurt",
+          "1/2 cup granola",
+          "1 banana, sliced",
+          "1 tsp honey"
+        ],
+        "instructions": [
+          "Place yogurt in a bowl.",
+          "Add granola and sliced banana.",
+          "Drizzle honey on top and serve."
+        ],
+        "description": "Calorie-rich breakfast with carbs, protein, and healthy fats.",
+        "image": ""
+      },
+      {
+        "id": 5,
+        "name": "Omelette with Cheese and Vegetables",
+        "category": "Breakfast",
+        "calories": 620,
+        "protein": 38,
+        "carbs": 25,
+        "fat": 35,
+        "prepTime": "5 min",
+        "cookTime": "10 min",
+        "totalTime": "15 min",
+        "ingredients": [
+          "3 whole eggs",
+          "50g cheese",
+          "50g bell peppers",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Sauté bell peppers in olive oil.",
+          "Add eggs and cook until set.",
+          "Sprinkle cheese and fold omelette.",
+          "Serve warm."
+        ],
+        "description": "Protein and fat-rich breakfast to support bulking goals.",
+        "image": ""
+      },
+      {
+        "id": 6,
+        "name": "Steak with Sweet Potato and Avocado",
+        "category": "Lunch",
+        "calories": 820,
+        "protein": 55,
+        "carbs": 60,
+        "fat": 32,
+        "prepTime": "10 min",
+        "cookTime": "20 min",
+        "totalTime": "30 min",
+        "ingredients": [
+          "180g beef steak",
+          "200g baked sweet potato",
+          "50g avocado",
+          "1 tsp butter"
+        ],
+        "instructions": [
+          "Season steak and grill to preferred doneness.",
+          "Bake sweet potato until tender.",
+          "Serve steak with sweet potato and sliced avocado.",
+          "Add butter over steak for extra calories."
+        ],
+        "description": "Nutrient-rich meal supporting muscle gain and recovery.",
+        "image": ""
+      },
+      {
+        "id": 7,
+        "name": "Chicken Pasta with Olive Oil",
+        "category": "Lunch",
+        "calories": 780,
+        "protein": 50,
+        "carbs": 90,
+        "fat": 20,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g grilled chicken",
+          "100g whole wheat pasta",
+          "1 tbsp olive oil",
+          "50g steamed broccoli"
+        ],
+        "instructions": [
+          "Cook pasta according to package instructions.",
+          "Grill chicken and cut into slices.",
+          "Mix pasta with broccoli and olive oil, top with chicken.",
+          "Serve warm."
+        ],
+        "description": "High-carb, high-protein lunch ideal for bulking.",
+        "image": ""
+      },
+      {
+        "id": 8,
+        "name": "Salmon with Quinoa and Vegetables",
+        "category": "Lunch",
+        "calories": 780,
+        "protein": 48,
+        "carbs": 58,
+        "fat": 32,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g salmon",
+          "100g cooked quinoa",
+          "100g mixed vegetables",
+          "1 tbsp olive oil"
+        ],
+        "instructions": [
+          "Grill salmon until cooked through.",
+          "Cook quinoa and sauté vegetables in olive oil.",
+          "Serve salmon with quinoa and vegetables."
+        ],
+        "description": "High in omega-3 and quality protein for muscle recovery.",
+        "image": ""
+      },
+      {
+        "id": 9,
+        "name": "Beef Stir-Fry with Rice",
+        "category": "Lunch",
+        "calories": 850,
+        "protein": 60,
+        "carbs": 70,
+        "fat": 28,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g beef strips",
+          "100g cooked brown rice",
+          "100g mixed bell peppers",
+          "1 tbsp soy sauce",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Stir-fry beef strips in olive oil until browned.",
+          "Add bell peppers and sauté briefly.",
+          "Serve over cooked brown rice with soy sauce."
+        ],
+        "description": "Calorie-dense lunch with protein and complex carbs for bulking.",
+        "image": ""
+      },
+      {
+        "id": 10,
+        "name": "Tuna Avocado Sandwich on Whole Wheat",
+        "category": "Lunch",
+        "calories": 700,
+        "protein": 45,
+        "carbs": 60,
+        "fat": 28,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "100g tuna",
+          "50g avocado",
+          "2 slices whole wheat bread",
+          "Lettuce"
+        ],
+        "instructions": [
+          "Mash avocado and mix with tuna.",
+          "Spread mixture on bread slices with lettuce.",
+          "Serve as sandwich."
+        ],
+        "description": "High-calorie sandwich packed with protein and healthy fats.",
+        "image": ""
+      },
+      {
+        "id": 11,
+        "name": "Salmon with Mashed Potatoes and Green Beans",
+        "category": "Dinner",
+        "calories": 800,
+        "protein": 50,
+        "carbs": 60,
+        "fat": 36,
+        "prepTime": "10 min",
+        "cookTime": "20 min",
+        "totalTime": "30 min",
+        "ingredients": [
+          "150g salmon",
+          "200g mashed potatoes",
+          "100g green beans",
+          "1 tbsp butter"
+        ],
+        "instructions": [
+          "Bake or grill salmon until cooked.",
+          "Prepare mashed potatoes with butter.",
+          "Steam green beans and serve with salmon and potatoes."
+        ],
+        "description": "High-calorie dinner with protein, carbs, and healthy fats for bulking.",
+        "image": ""
+      },
+      {
+        "id": 12,
+        "name": "Chicken Burrito Bowl",
+        "category": "Dinner",
+        "calories": 850,
+        "protein": 55,
+        "carbs": 75,
+        "fat": 28,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g grilled chicken",
+          "100g cooked brown rice",
+          "50g black beans",
+          "50g corn",
+          "1 tbsp olive oil"
+        ],
+        "instructions": [
+          "Assemble all ingredients in a bowl.",
+          "Drizzle with olive oil and mix well.",
+          "Serve warm."
+        ],
+        "description": "Nutritious dinner bowl for bulking with balanced macros.",
+        "image": ""
+      },
+      {
+        "id": 13,
+        "name": "Beef Chili with Rice",
+        "category": "Dinner",
+        "calories": 900,
+        "protein": 60,
+        "carbs": 80,
+        "fat": 32,
+        "prepTime": "15 min",
+        "cookTime": "25 min",
+        "totalTime": "40 min",
+        "ingredients": [
+          "150g ground beef",
+          "100g cooked rice",
+          "100g kidney beans",
+          "50g tomato sauce",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Cook ground beef with olive oil.",
+          "Add beans and tomato sauce, simmer for 20 min.",
+          "Serve over cooked rice."
+        ],
+        "description": "Hearty dinner with high calories and protein for muscle growth.",
+        "image": ""
+      },
+      {
+        "id": 14,
+        "name": "Shrimp Stir-Fry with Noodles",
+        "category": "Dinner",
+        "calories": 820,
+        "protein": 50,
+        "carbs": 85,
+        "fat": 22,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g shrimp",
+          "100g whole wheat noodles",
+          "100g mixed vegetables",
+          "1 tbsp soy sauce",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Stir-fry shrimp in olive oil until pink.",
+          "Cook noodles and add vegetables.",
+          "Combine all with soy sauce and serve."
+        ],
+        "description": "High-protein, calorie-dense dinner perfect for bulking phase.",
+        "image": ""
+      },
+      {
+        "id": 15,
+        "name": "Chicken Alfredo Pasta",
+        "category": "Dinner",
+        "calories": 900,
+        "protein": 55,
+        "carbs": 80,
+        "fat": 35,
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "25 min",
+        "ingredients": [
+          "150g grilled chicken",
+          "100g whole wheat pasta",
+          "50g Alfredo sauce",
+          "1 tsp olive oil"
+        ],
+        "instructions": [
+          "Cook pasta according to instructions.",
+          "Grill chicken and slice.",
+          "Mix pasta with Alfredo sauce and top with chicken.",
+          "Serve warm."
+        ],
+        "description": "Rich and filling dinner with protein and calories for bulking.",
+        "image": ""
+      },
+      {
+        "id": 16,
+        "name": "Protein Shake with Peanut Butter and Banana",
+        "category": "Snack",
+        "calories": 450,
+        "protein": 35,
+        "carbs": 40,
+        "fat": 18,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "1 scoop whey protein",
+          "1 banana",
+          "1 tbsp peanut butter",
+          "250ml whole milk"
+        ],
+        "instructions": [
+          "Blend all ingredients until smooth.",
+          "Serve chilled."
+        ],
+        "description": "High-calorie, high-protein snack for muscle gain.",
+        "image": ""
+      },
+      {
+        "id": 17,
+        "name": "Greek Yogurt with Granola and Honey",
+        "category": "Snack",
+        "calories": 400,
+        "protein": 25,
+        "carbs": 45,
+        "fat": 12,
+        "prepTime": "5 min",
+        "cookTime": "0 min",
+        "totalTime": "5 min",
+        "ingredients": [
+          "200g full-fat Greek yogurt",
+          "1/2 cup granola",
+          "1 tsp honey"
+        ],
+        "instructions": [
+          "Mix yogurt with granola and honey.",
+          "Serve immediately."
+        ],
+        "description": "High-protein, calorie-dense snack for bulking phase.",
+        "image": ""
+      }
+    ]
+  }
+}

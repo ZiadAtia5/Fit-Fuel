@@ -1,0 +1,167 @@
+.footer {
+  background-color: var(--color-gray-dark);
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .h-content {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, calc(85% / 4))); */
+  justify-content: center;
+
+  /* grid-template-columns: repeat(3, calc(90% / 3)); */
+}
+
+.footer .h-content h3 {
+  text-transform: capitalize;
+}
+
+.footer .h-content p {
+  color: var(--color-gray-text);
+  max-width: 300px;
+}
+
+.footer .h-content .p {
+  padding: 0 20px;
+}
+.footer .h-content img {
+  width: 200px;
+}
+
+.footer .h-content .support {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer .h-content .support .icon {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-red);
+  padding: 10px;
+}
+
+.links li {
+  list-style: none;
+  margin: 25px 0;
+  text-transform: capitalize;
+}
+
+.links li a {
+  color: var(--color-gray-text);
+}
+.links li:hover a {
+  color: #fff;
+}
+
+.footer .f-content {
+  margin-top: 30px;
+  text-align: center;
+}
+.footer .f-content .icon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid var(--color-gray-text);
+  margin: 0 5px;
+  cursor: pointer;
+}
+.footer .f-content p {
+  color: var(--color-gray-text);
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.footer-col p {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.footer-col .f-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.subscribe-text {
+  margin-top: 10px;
+}
+
+.subscribe-box input {
+  border: 1px solid var(--color-red);
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+  height: 35px;
+  border-radius: 8px;
+  width: 60%;
+  padding: 5px 10px;
+  color: #fff;
+  outline: 0;
+  font-size: 16px;
+}
+
+.subscribe-box button {
+  background-color: var(--color-red);
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 20px;
+  }
+
+  .footer .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .footer .h-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer .h-content img {
+    width: 150px;
+  }
+
+  .links li {
+    margin: 15px 0;
+  }
+
+  .subscribe-box input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .subscribe-box button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer .f-content {
+    margin-top: 20px;
+  }
+}

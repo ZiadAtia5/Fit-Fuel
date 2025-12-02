@@ -1,0 +1,99 @@
+.exercise-list {
+  margin: 90px 0;
+  position: relative;
+}
+
+.ex-list {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+}
+
+.exercise-list h2 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.exercise-list .exercise-card {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--color-gray-light);
+  margin-bottom: 30px;
+}
+.exercise-list .exercise-card .image {
+  width: 120px;
+  height: 100%;
+}
+.exercise-list .exercise-card .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.exercise-list .exercise-card .ex-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.exercise-list .exercise-card .ex-footer p {
+  background-color: var(--color-accent);
+  padding: 2px 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  /* color: var(--color-gray-text); */
+}
+.exercise-list .exercise-card .icon {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .ex-list {
+    width: 100%;
+    left: 0;
+    transform: none;
+    padding: 0 15px;
+  }
+
+  .exercise-list h2 {
+    left: 0;
+    transform: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .exercise-list .exercise-card {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .exercise-list .exercise-card .image {
+    width: 100%;
+    height: 180px;
+  }
+
+  .exercise-list .exercise-card .icon {
+    right: 20px;
+    top: 20px;
+    transform: none;
+    font-size: 24px;
+  }
+
+  .exercise-list .exercise-card .ex-footer {
+    justify-content: center;
+  }
+}

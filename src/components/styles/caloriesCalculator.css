@@ -1,0 +1,308 @@
+.Calories-calculator {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--color-bg-dark);
+  text-align: center;
+}
+
+.Calories-calculator .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Calories-calculator .popular-header {
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+.Calories-calculator .popular-header p {
+  color: var(--color-red);
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.Calories-calculator .popular-header p::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: var(--color-red);
+  left: -35px;
+  top: 50%;
+  transform: translateX(-50%);
+}
+.Calories-calculator .popular-header p::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: var(--color-red);
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Calories-calculator .popular-header h2 {
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.Calories-calculator .content {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  width: fit-content;
+  background-color: var(--color-gray-dark);
+  padding: 30px;
+  border-radius: 10% 10% 50% 50%;
+  /* box-shadow: inset 0 0 25px #b98a8a; */
+  border: 3px dashed #fff;
+  overflow: hidden;
+  animation-name: border-s;
+  animation-duration: 3.9s;
+  animation-iteration-count: infinite;
+  animation-direction: inherit;
+}
+
+@media (max-width: 768px) {
+  .Calories-calculator .content {
+    border-radius: 15px;
+  }
+}
+
+.Calories-calculator .content .top .gender {
+  padding: 20px 0;
+  position: relative;
+}
+.Calories-calculator .content .top .gender p {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  color: var(--color-gray-text);
+}
+
+.gender input[type="radio"] {
+  accent-color: var(--color-red);
+}
+
+.gender label {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  display: block;
+}
+
+.Calories-calculator .content .left {
+  width: 50%;
+}
+
+/* .Calories-calculator .content .top {
+
+} */
+.Calories-calculator .content .top .form {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .Calories-calculator .content .top .form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.Calories-calculator .content .top .form .input-wraper {
+  padding: 20px 0;
+  margin-top: 10px;
+  position: relative;
+}
+.Calories-calculator .content .top .form .left .input-wraper {
+  width: 80%;
+}
+.Calories-calculator .content .top .form .input-wraper label {
+  position: absolute;
+  left: 20px;
+  top: -5px;
+  color: var(--color-gray-text);
+}
+.Calories-calculator .content .top .form .input-wraper p {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  color: var(--color-gray-text);
+  font-size: 20px;
+}
+.Calories-calculator .content .top .form .input-wraper input {
+  background-color: transparent;
+  width: 150px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid var(--color-red);
+  outline: 0;
+  padding: 5px 10px;
+  transition: border-color 0.2s;
+  color: #fff;
+  background-color: transparent;
+}
+
+.Calories-calculator select {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid var(--color-red);
+  border-radius: 8px;
+  padding: 10px 40px 10px 12px;
+  font-size: 16px;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Calories-calculator select:focus {
+  border-color: var(--color-red);
+  box-shadow: 0 0 5px var(--color-red);
+}
+
+.Calories-calculator .input-wraper {
+  position: relative;
+}
+
+.Calories-calculator .select::after {
+  content: "▼";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: var(--color-red);
+  pointer-events: none;
+}
+
+.Calories-calculator select:hover {
+  background-color: rgba(253, 0, 0, 0.112);
+}
+
+.Calories-calculator select option {
+  background-color: var(--color-bg-dark);
+  color: #fff;
+  padding: 15px;
+  border: none;
+}
+
+.gender {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.gender input[type="radio"] {
+  accent-color: var(--color-red);
+}
+
+.gender label {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.Calories-calculator .content .top .form .btn {
+  background-color: var(--color-red);
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+.Calories-calculator .content .top .form .btn:hover {
+  background-color: #ff3030;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+  transform: translateY(-3px);
+}
+.Calories-calculator .content .top .form .btn:active {
+  transform: scale(0.96);
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
+}
+
+.Calories-calculator .content {
+  position: relative;
+}
+
+.Calories-calculator .content .right-c {
+  display: flex;
+  align-items: center;
+}
+
+/* ------------------ */
+
+.Calories-calculator .content .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calories-calculator .content .bottom .text .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 5px solid var(--color-red);
+  color: #fff;
+  padding: 20px;
+  animation-name: icon-color;
+  animation-duration: 3.9s;
+  animation-iteration-count: infinite;
+  animation-direction: inherit;
+}
+.Calories-calculator .content .bottom .text p {
+  font-size: 30px;
+  color: #ff30305a;
+}
+.Calories-calculator .content .bottom .text h3 {
+  padding: 10px;
+  font-size: 30px;
+  margin: 10px;
+}
+
+@keyframes border-s {
+  0% {
+    border-top-color: var(--color-red);
+  }
+  25% {
+    border-right-color: var(--color-red);
+  }
+  50% {
+    border-bottom-color: var(--color-red);
+  }
+  75% {
+    border-left-color: var(--color-red);
+  }
+  100% {
+    border-top-color: var(--color-red);
+  }
+}
+@keyframes icon-color {
+  0% {
+    color: #fff;
+  }
+
+  50% {
+    color: #00ff44;
+  }
+
+  100% {
+    color: #fff;
+  }
+}

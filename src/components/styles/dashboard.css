@@ -1,0 +1,52 @@
+.dashboard {
+  margin-top: 180px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard .content .top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-light);
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70px;
+  padding-top: 20px;
+  width: 100%;
+  z-index: 20;
+}
+
+@media (max-width: 768px) {
+  .dashboard .content .top {
+    top: 60px;
+  }
+}
+
+.dashboard .content .top h1 {
+  color: #009a76;
+}
+
+.dashboard .content .top div {
+  display: flex;
+  gap: 30px;
+
+  justify-content: center;
+}
+
+.dashboard .content .top button {
+  width: 150px;
+  height: 35px;
+  background-color: #009a76;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 800;
+  margin: 20px 0;
+  cursor: pointer;
+  letter-spacing: 3px;
+}

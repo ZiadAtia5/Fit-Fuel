@@ -1,0 +1,191 @@
+.logIn {
+  height: 100vh;
+}
+.logIn .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 130px; */
+}
+
+.logo-img {
+  object-fit: contain;
+  width: 200px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+.login-container {
+  width: 450px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 30px;
+  background-color: var(--color-gray-light);
+  box-shadow: inset 0 0 25px #8484844a;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    width: 100%;
+  }
+}
+
+.login-container > h2 {
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.login-container .input-field {
+  position: relative;
+}
+.login-container .input-field .icon-l {
+  position: absolute;
+  left: 10px;
+  top: 41%;
+  transform: translateY(-50%);
+}
+
+.login-container form input {
+  border: 1px solid var(--color-red);
+  margin: 10px 0 20px 0;
+  background-color: transparent;
+  height: 40px;
+  border-radius: 15px;
+  width: 95%;
+  padding: 5px 40px;
+  color: #fff;
+  outline: 0;
+  font-size: 15px;
+}
+.login-container form .info-user {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .login-container form .name {
+    width: 50%;
+  }
+  form .name input {
+    padding-right: 5px;
+  }
+  input {
+    font-size: 15px;
+  }
+}
+
+.login-container form input::placeholder {
+  color: #fff;
+}
+
+.login-container form p:not(:nth-of-type(1)) {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #4e4e4e;
+}
+
+.login-container form .signin-button {
+  background-color: var(--color-red);
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  width: 100%;
+}
+
+.login-container form .create-account {
+  margin-top: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  color: var(--color-red);
+  text-align: center;
+  transition: all 0.8s ease-in;
+}
+
+.login-container form .create-account:active {
+  transform: translateY(-10px);
+}
+
+.input-field .icon {
+  position: absolute;
+  right: 25px;
+  top: 41%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.forgot-password {
+  cursor: pointer;
+  color: #4a90e2;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.reset-section {
+  margin-top: 10px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.res-btn {
+  margin-top: 10px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.google {
+  justify-content: center;
+  display: flex;
+}
+
+.google-btn {
+  width: 50%;
+  height: 40px;
+  background-color: #fff;
+  color: #212121;
+  font-weight: 600;
+  font-size: 17px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 40px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .google-btn {
+    width: 60%;
+  }
+}
+.google-image {
+  height: 80%;
+}
+
+.cheack-field .cheack {
+  margin: 2px 20px;
+  font-weight: 200;
+}
