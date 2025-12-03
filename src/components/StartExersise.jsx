@@ -29,19 +29,24 @@ const StartExersise = () => {
   }
 
   const handleChange = () => {
-    setProfileData((prev) => {
-      const safe = prev || {};
-      return {
-        ...safe,
-        workout: (safe.workout || 0) + 1,
-      };
-    });
+    user &&
+      setProfileData((prev) => {
+        const safe = prev || {};
+
+        return {
+          ...safe,
+          workout: (safe.workout ?? 0) + 1,
+        };
+      });
   };
 
   const handleSave = async () => {
     if (user) {
       const userRef = doc(db, "userProfiles", user.uid);
-      await updateDoc(userRef, profileData);
+      await updateDoc(userRef, {
+        ...profileData,
+        workout: profileData?.workout ?? 0,
+      });
     }
   };
 
