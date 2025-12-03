@@ -24,11 +24,18 @@ const StartExersise = () => {
 
   const exercise = exercises[currentExerciseIndex];
 
+  if (!exercise) {
+    return <p className="no">No exercise data found.</p>;
+  }
+
   const handleChange = () => {
-    setProfileData((prev) => ({
-      ...prev,
-      workout: (prev.workout || 0) + 1,
-    }));
+    setProfileData((prev) => {
+      const safe = prev || {};
+      return {
+        ...safe,
+        workout: (safe.workout || 0) + 1,
+      };
+    });
   };
 
   const handleSave = async () => {

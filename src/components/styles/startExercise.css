@@ -137,9 +137,14 @@
     background-position: center;
   }
 
+  .start-exercise .content {
+    overflow: hidden;
+  }
+
   .start-exercise .content .c-image {
     width: 90%;
     height: 200px;
+    overflow: hidden;
   }
 
   .start-exercise .content .c-main {
@@ -170,4 +175,10 @@
   .start-exercise .content .c-header p {
     text-align: center;
   }
+}
+
+.no {
+  transform: translateY(50%);
+  font-size: 30px;
+  color: var(--color-red);
 }

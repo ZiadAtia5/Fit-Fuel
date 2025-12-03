@@ -8,7 +8,10 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const [profileData, setProfileData] = useState(null);
+  const [profileData, setProfileData] = useState(() => ({
+    workout: 0,
+  }));
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
